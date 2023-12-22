@@ -1,0 +1,72 @@
+.layout {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    padding: 24px 48px;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(59, 45, 45);
+  }
+.MovieBox {
+    display: flex;
+    /* border: 1px black solid; */
+    background-color: rgb(204, 231, 222);
+    width: 250px;
+    
+    align-content: center;
+    justify-content: center;
+    align-items: center; 
+}
+.movie{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.button{
+    display: flex;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+.movie h3{
+    color: rgb(16, 3, 27);
+}
+
+.movie img{
+    display: flex;
+    height: 200px;
+    width: 130px;
+}
+
+.modal{
+    display: flex;
+  
+}
+.modal img{
+    display: flex;
+    height: 320px; 
+    width: 270px;
+    margin-top: 10px;
+}
+.modalInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-top: 0;
+
+}
+
+.modal h5{
+    font-size: 15px;
+}
+
+.modalInfo p{
+    align-items: center;
+}
